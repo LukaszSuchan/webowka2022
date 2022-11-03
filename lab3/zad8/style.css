@@ -1,0 +1,120 @@
+.container{
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    justify-content: space-evenly;
+    color:  rgb(150, 150, 150);
+    height: 80vh;
+    align-items: center;
+    font-family: "Helvetica", sans-serif;
+    flex-wrap: wrap;
+}
+.card{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    background-color: white;
+    margin: 20px;
+}
+.card-face{
+    position: absolute;
+    height: 450px;
+    width: 300px;
+    backface-visibility: hidden;
+}
+.card-face-front{
+    display: flex;
+    flex-direction: column;
+}
+.cover{
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 66%, 0% 90%);
+}
+.cover-card-1{
+    background-color: rgb(222, 137, 32);
+}
+.cover-card-2{
+    background-color: rgb(0, 195, 110);
+}
+.cover-card-3{
+    background-color:  rgb(80, 128, 199);
+}
+.card-face-front h1{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    opacity: 0.8;
+}
+.card-face-front-1 h1{
+    background-color:  rgb(222, 137, 32);
+}
+.card-face-front-2 h1{
+    background-color:  rgb(0, 195, 110);
+}
+.card-face-front-3 h1{
+    background-color:  rgb(80, 128, 199);
+}
+.card-face-front hr{
+    background-color:  rgb(231, 231, 231); height: 1px; border: 0;
+}
+.card-face-front p{
+    height: 15px;
+}
+.first{
+    top: 110px;
+    right: 5px;;
+}
+.second{
+    top: 145px;
+    right: 10px;
+}
+.cover img{
+    width: 300px;
+    height: 260px;
+    object-fit: cover;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 1;
+}
+.content{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.card-face-back{
+    display: flex;
+    flex-direction: column;
+    transform: rotateY(180deg);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.card-face-back{
+    font-weight: lighter;
+}
+.card-face-back button{
+    border-radius: 20px;
+    width: 150px;
+    color:  rgb(150, 150, 150);
+    border: none;
+    margin-top: 20px;
+}
+.card-face-back-1{
+    background: linear-gradient(135deg ,#ffce39, rgb(255, 140, 0));
+}
+.card-face-back-2{
+    background: linear-gradient(135deg ,#7bd22e, rgb(31, 167, 110));
+}
+.card-face-back-3{
+    background: linear-gradient(135deg ,#2e80d2, rgb(80, 7, 159));
+}
+.card:hover{
+    transform: rotateY(180deg);
+}

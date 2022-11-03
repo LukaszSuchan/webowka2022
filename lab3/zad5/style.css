@@ -1,0 +1,25 @@
+body{
+    margin: 0 auto;
+}
+section
+{
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.image
+{
+    display: flex;
+    flex: 1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.image:hover
+{
+    flex-grow: 4;
+}

@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(246, 237, 226);
+    font-family: "Helvetica", sans-serif;
+}
+div.container{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div.card{
+    display: flex;
+    height: 610px;
+    width: 300px;
+    flex-direction: column;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+}
+div.photo{
+    height: 200px;
+    width: 300px;
+    border-top-left-radius: 10px;
+}
+div.content{
+    padding: 20px;
+}
+div.below{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+div.review{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+div.comments{
+    display: flex;
+}
+div.likes{
+    display: flex;
+}
+h4{
+    color: red;
+    margin: 0;
+    margin-bottom: 20px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+p{
+    margin: 0px;
+    text-align: justify;
+}
+i.material-icons{
+    width: 24px;
+}
