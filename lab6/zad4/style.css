@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+#toggle-password1{
+    margin-left:  -30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#toggle-password2{
+    margin-left:  -30px;
+    margin-top: 5px;
+    cursor: pointer;
+}

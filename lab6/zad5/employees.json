@@ -1,0 +1,26 @@
+[
+        {
+            "name": "Łukasz Suchan",
+            "position": "Java Developer",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta obcaecati, quos in vero inventore quia fugit repellat alias harum ipsam?",
+            "imgSource": "lukasz.jpg"
+        },
+        {
+            "name": "Piotr Szcząchor",
+            "position": "Fullstack Developer",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta obcaecati, quos in vero inventore quia fugit repellat alias harum ipsam?",
+            "imgSource": "piotrek.jpg"
+        },
+        {
+            "name": "Kamil Sermak",
+            "position": "Data Scientist",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta obcaecati, quos in vero inventore quia fugit repellat alias harum ipsam?",
+            "imgSource": "kamil_s.jpg"
+        },
+        {
+            "name": "Kamil Stecyk",
+            "position": "Marketing Manager",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta obcaecati, quos in vero inventore quia fugit repellat alias harum ipsam?",
+            "imgSource": "kamila.jpg"
+        }
+]

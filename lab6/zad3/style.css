@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    height: 100px;
+    width: 30vw;
+    border-radius: 10px;
+    border: 1px solid green;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+#display{
+    width: 60vw;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+
+/* #table1{
+
+} */
