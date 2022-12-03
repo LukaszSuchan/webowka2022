@@ -1,0 +1,123 @@
+{ 
+    "categories": [
+        {
+            "category": "cars",
+            "products": [
+                {
+                    "nazwa": "Fiat"
+                },
+                {
+                    "nazwa": "BMW"
+                },
+                {
+                    "nazwa": "Mercedes"
+                },
+                {
+                    "nazwa": "Audi"
+                }
+            ]
+        },
+        {
+            "category": "scooters",
+            "products": [
+                {
+                    "nazwa": "Aprilla"
+                },
+                {
+                    "nazwa": "Yamaha"
+                },
+                {
+                    "nazwa": "Honda"
+                },
+                {
+                    "nazwa": "Romet"
+                }
+            ]
+        },
+        {
+            "category": "baverages",
+            "products": [
+                {
+                    "nazwa": "Pepsi"
+                },
+                {
+                    "nazwa": "Sprite"
+                },
+                {
+                    "nazwa": "Fanta"
+                },
+                {
+                    "nazwa": "Tonic"
+                }
+            ]
+        },
+        {
+            "category": "mobile",
+            "products":  [
+                {
+                    "nazwa": "iPhone"
+                },
+                {
+                    "nazwa": "Samsung"
+                },
+                {
+                    "nazwa": "LG"
+                },
+                {
+                    "nazwa": "Google"
+                }
+            ]
+        },
+        {
+            "category":  "electronics",
+            "products": [
+                {
+                    "nazwa": "Asus"
+                },
+                {
+                    "nazwa": "HP"
+                },
+                {
+                    "nazwa": "Apple"
+                },
+                {
+                    "nazwa": "Lenovo"
+                }
+            ]
+        },
+        {
+            "category": "clothes",
+            "products": [
+                {
+                    "nazwa": "Carhartt"
+                },
+                {
+                    "nazwa": "Polar"
+                },
+                {
+                    "nazwa": "Martens"
+                },
+                {
+                    "nazwa": "Axel"
+                }
+            ]
+        },
+        {
+            "category": "furniture",
+            "products":  [
+                {
+                    "nazwa": "Gala"
+                },
+                {
+                    "nazwa": "Wójcik"
+                },
+                {
+                    "nazwa": "Venaces"
+                },
+                {
+                    "nazwa": "Forte"
+                }
+            ]
+        }
+]
+}
