@@ -20,14 +20,22 @@ function displayContacts() {
 }
 
 function addContact() {
-    const regexName = new RegExp(/^[A-Z][a-z]+ [A-Z][a-z]+$/);
+    const regexName = new RegExp(/^[\p{Lu}][\p{Ll}]+ [\p{Lu}][\p{Ll}]+(-[\p{Lu}][\p{Ll}]+)?$/u);
+    const regexPhoneWithCountryCode = new RegExp(/^\+(?:[0-9]*?){6,14}[0-9]$/);
     const regexPhone = new RegExp(/^[1-9][0-9]{8}$/);
 
     const name = document.getElementById("input-name").value;
-    const phone = document.getElementById("input-phone").value;
+    var phone = document.getElementById("input-phone").value;
+    phone = phone.replace(/\s+/g, '');
 
-    if (regexName.test(name) && regexPhone.test(phone)) {
-        const prettyPhone = phone.slice(0, 3) + " " + phone.slice(3, 6) + " " + phone.slice(6, 9);
+    if (regexName.test(name) && regexPhone.test(phone) || regexPhoneWithCountryCode.test(phone)) {
+        var prettyPhone = undefined
+        if(regexPhoneWithCountryCode.test(phone)){
+            console.log("phone with +");
+            prettyPhone = phone.slice(0, 3) + " " + phone.slice(3, 6) + " " + phone.slice(6, 9) + " " + phone.slice(9,12);
+        } else {
+            prettyPhone = phone.slice(0, 3) + " " + phone.slice(3, 6) + " " + phone.slice(6, 9);
+        }
         var contact = new Contact(name, prettyPhone);
         contacts.push(contact);
         displayContacts();
